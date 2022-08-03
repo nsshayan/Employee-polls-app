@@ -35,7 +35,7 @@ describe('data', () => {
 
     it('should save the given answer', async () => {
         const answer = {
-            authedUser: 'erdemkeren',
+            authedUser: 'shayan',
             qid: '8xf0y6ziyjabvozdd253nd',
             answer: 'optionOne',
         };

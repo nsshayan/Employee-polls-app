@@ -36,7 +36,7 @@ exports[`Login form should render 1`] = `
           class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-17vbkzs-MuiFormControl-root-MuiTextField-root"
         >
           <label
-            class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary MuiFormLabel-filled Mui-focused Mui-required css-1kty9di-MuiFormLabel-root-MuiInputLabel-root"
+            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled Mui-focused Mui-required css-1sumxir-MuiFormLabel-root-MuiInputLabel-root"
             data-shrink="true"
             for="username"
             id="username-label"
@@ -44,35 +44,36 @@ exports[`Login form should render 1`] = `
             Username
             <span
               aria-hidden="true"
-              class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-wgai2y-MuiFormLabel-asterisk"
+              class="MuiFormLabel-asterisk MuiInputLabel-asterisk css-wgai2y-MuiFormLabel-asterisk"
             >
                
               *
             </span>
           </label>
           <div
-            class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl css-md26zr-MuiInputBase-root-MuiOutlinedInput-root"
+            class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl css-md26zr-MuiInputBase-root-MuiOutlinedInput-root"
           >
             <input
               aria-invalid="false"
               autocomplete="username"
-              class="MuiOutlinedInput-input MuiInputBase-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+              class="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
               id="username"
               name="username"
               required=""
               type="text"
-              value="erdemkeren"
+              value="shayan"
             />
             <fieldset
               aria-hidden="true"
               class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
             >
               <legend
-                class="css-1z7n62"
+                class="css-1in441m"
               >
                 <span>
                   Username
-                   *
+                   
+                  *
                 </span>
               </legend>
             </fieldset>
@@ -82,7 +83,7 @@ exports[`Login form should render 1`] = `
           class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-17vbkzs-MuiFormControl-root-MuiTextField-root"
         >
           <label
-            class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary MuiFormLabel-filled Mui-required css-1kty9di-MuiFormLabel-root-MuiInputLabel-root"
+            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled Mui-required css-1sumxir-MuiFormLabel-root-MuiInputLabel-root"
             data-shrink="true"
             for="password"
             id="password-label"
@@ -90,42 +91,44 @@ exports[`Login form should render 1`] = `
             Password
             <span
               aria-hidden="true"
-              class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-wgai2y-MuiFormLabel-asterisk"
+              class="MuiFormLabel-asterisk MuiInputLabel-asterisk css-wgai2y-MuiFormLabel-asterisk"
             >
                
               *
             </span>
           </label>
           <div
-            class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-md26zr-MuiInputBase-root-MuiOutlinedInput-root"
+            class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-md26zr-MuiInputBase-root-MuiOutlinedInput-root"
           >
             <input
               aria-invalid="false"
               autocomplete="current-password"
-              class="MuiOutlinedInput-input MuiInputBase-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+              class="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
               id="password"
               name="password"
               required=""
               type="password"
-              value="pwd2022"
+              value="password"
             />
             <fieldset
               aria-hidden="true"
               class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
             >
               <legend
-                class="css-1z7n62"
+                class="css-1in441m"
               >
                 <span>
                   Password
-                   *
+                   
+                  *
                 </span>
               </legend>
             </fieldset>
           </div>
         </div>
         <button
-          class="MuiLoadingButton-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButtonBase-root css-1qudo6r-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root"
+          class="MuiButtonBase-root MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-1qudo6r-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root"
+          id="mui-1"
           tabindex="0"
           type="submit"
         >
@@ -138,18 +141,7 @@ exports[`Login form should render 1`] = `
     </div>
     <p
       class="MuiTypography-root MuiTypography-body2 MuiTypography-alignCenter css-ijul54-MuiTypography-root"
-    >
-      Copyright © 
-      <a
-        class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1kgfegd-MuiTypography-root-MuiLink-root"
-        href="https://erdemkeren.com/"
-      >
-        Hilmi Erdem Keren
-      </a>
-       
-      2021
-      .
-    </p>
+    />
   </main>
 </div>
 `;
@@ -190,7 +182,7 @@ exports[`Login form should show failed login info 1`] = `
           class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-17vbkzs-MuiFormControl-root-MuiTextField-root"
         >
           <label
-            class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary MuiFormLabel-filled Mui-focused Mui-required css-1kty9di-MuiFormLabel-root-MuiInputLabel-root"
+            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled Mui-focused Mui-required css-1sumxir-MuiFormLabel-root-MuiInputLabel-root"
             data-shrink="true"
             for="username"
             id="username-label"
@@ -198,35 +190,36 @@ exports[`Login form should show failed login info 1`] = `
             Username
             <span
               aria-hidden="true"
-              class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-wgai2y-MuiFormLabel-asterisk"
+              class="MuiFormLabel-asterisk MuiInputLabel-asterisk css-wgai2y-MuiFormLabel-asterisk"
             >
                
               *
             </span>
           </label>
           <div
-            class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl css-md26zr-MuiInputBase-root-MuiOutlinedInput-root"
+            class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl css-md26zr-MuiInputBase-root-MuiOutlinedInput-root"
           >
             <input
               aria-invalid="false"
               autocomplete="username"
-              class="MuiOutlinedInput-input MuiInputBase-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+              class="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
               id="username"
               name="username"
               required=""
               type="text"
-              value="erdemkeren"
+              value="shayan"
             />
             <fieldset
               aria-hidden="true"
               class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
             >
               <legend
-                class="css-1z7n62"
+                class="css-1in441m"
               >
                 <span>
                   Username
-                   *
+                   
+                  *
                 </span>
               </legend>
             </fieldset>
@@ -236,7 +229,7 @@ exports[`Login form should show failed login info 1`] = `
           class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-17vbkzs-MuiFormControl-root-MuiTextField-root"
         >
           <label
-            class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary MuiFormLabel-filled Mui-required css-1kty9di-MuiFormLabel-root-MuiInputLabel-root"
+            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled Mui-required css-1sumxir-MuiFormLabel-root-MuiInputLabel-root"
             data-shrink="true"
             for="password"
             id="password-label"
@@ -244,35 +237,36 @@ exports[`Login form should show failed login info 1`] = `
             Password
             <span
               aria-hidden="true"
-              class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-wgai2y-MuiFormLabel-asterisk"
+              class="MuiFormLabel-asterisk MuiInputLabel-asterisk css-wgai2y-MuiFormLabel-asterisk"
             >
                
               *
             </span>
           </label>
           <div
-            class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-md26zr-MuiInputBase-root-MuiOutlinedInput-root"
+            class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-md26zr-MuiInputBase-root-MuiOutlinedInput-root"
           >
             <input
               aria-invalid="false"
               autocomplete="current-password"
-              class="MuiOutlinedInput-input MuiInputBase-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+              class="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
               id="password"
               name="password"
               required=""
               type="password"
-              value="pwd2022"
+              value="password"
             />
             <fieldset
               aria-hidden="true"
               class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
             >
               <legend
-                class="css-1z7n62"
+                class="css-1in441m"
               >
                 <span>
                   Password
-                   *
+                   
+                  *
                 </span>
               </legend>
             </fieldset>
@@ -298,13 +292,14 @@ exports[`Login form should show failed login info 1`] = `
             </svg>
           </div>
           <div
-            class="MuiAlert-message css-acap47-MuiAlert-message"
+            class="MuiAlert-message css-1pxa9xg-MuiAlert-message"
           >
             The authentication was not successful.
           </div>
         </div>
         <button
-          class="MuiLoadingButton-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButtonBase-root css-1qudo6r-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root"
+          class="MuiButtonBase-root MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-1qudo6r-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root"
+          id="mui-4"
           tabindex="0"
           type="submit"
         >
@@ -317,18 +312,7 @@ exports[`Login form should show failed login info 1`] = `
     </div>
     <p
       class="MuiTypography-root MuiTypography-body2 MuiTypography-alignCenter css-ijul54-MuiTypography-root"
-    >
-      Copyright © 
-      <a
-        class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1kgfegd-MuiTypography-root-MuiLink-root"
-        href="https://erdemkeren.com/"
-      >
-        Hilmi Erdem Keren
-      </a>
-       
-      2021
-      .
-    </p>
+    />
   </main>
 </div>
 `;

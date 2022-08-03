@@ -1,4 +1,4 @@
-import Login from "./";
+import Login from ".";
 import { render, screen, fireEvent } from '../../../utils/test-utils';
 import * as hooks from '../../../app/hooks';
 
